@@ -26,7 +26,7 @@ $ bash install-zsh.sh
 
 Analogically you can uninstall it
 
-$ chmod +x * && bash uninstall.sh
+$ chmod +x * && bash uninstall-bash.sh (or uninstall-zsh.sh)
 
 If you want additional protect, run
 
