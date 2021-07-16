@@ -2,6 +2,10 @@
 #! -*- coding: utf-8 -*-
 import os
 import getpass
+import signal
+
+signal.signal(signal.SIGTSTP, signal.SIG_IGN)
+
 #password have to be as a single word in " "
 passwd = "oldpass"
 a = getpass.getpass("Password: ")
