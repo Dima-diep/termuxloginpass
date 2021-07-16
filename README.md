@@ -43,4 +43,4 @@ $ addition.sh
 
 For uninstall, run
 
-$ bash uninstall-bash.SH (not rb!)
+$ ruby uninstall-bash.rb (uninstall-zsh.rb)
