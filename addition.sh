@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install tsu root-repo
+apt install tsu root-repo -y
 sudo chattr +i ~/termloginpass/chlogin.rb
 sudo chattr +i ~/termloginpass/chpass.rb
 sudo chattr +i ~/termloginpass/login.py
