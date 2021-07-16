@@ -15,4 +15,4 @@ $ bash install-zsh.sh
 Analogically you can uninstall it
 $ chmod +x * && bash uninstall.sh
 If you want additional protect, run [WARNING! YOU NEED ROOT FOR IT!!!]
-$ bash additional.sh
+$ bash addition.sh
