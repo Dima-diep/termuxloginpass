@@ -32,5 +32,9 @@ If you want additional protect, run
 
 [WARNING! YOU NEED ROOT FOR IT!!!]
 
-$ bash addition.sh
+$ bash addition-root.sh
 $ ruby addition-bash.rb (or addition-zsh.rb)
+
+Without root, run (but it isn t very good)
+
+$ addition.sh
