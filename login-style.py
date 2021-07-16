@@ -11,4 +11,4 @@ elif a == debian:
 elif a == kali:
     os.system("cat ~/.linuxcolor/kalilinux | lolcat 55 -a -s 40 -i")
 elif a == ubuntu:
-    os.system("cat ~/.linuxcolor/ubuntu | lolcat -S 30 -a -s 40 -i")
+    os.system("cat ~/.linuxcolor/Ubuntu | lolcat -S 30 -a -s 40 -i")
