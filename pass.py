@@ -8,6 +8,7 @@ a = getpass.getpass("Password: ")
 
 if a == passwd:
     os.system("kill -9 python3")
+    os.system("neofetch")
 elif a != passwd:
     print("Password incorrect")
     os.system("python3 ~/termuxloginpass/login.py")
