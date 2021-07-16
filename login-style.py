@@ -5,10 +5,10 @@ import os
 a = arch
 
 if a == arch:
-    os.system("cat ~/termloginpass/archlinux | lolcat -S 65 -a -s 40 -i")
+    os.system("cat ~/.linuxcolor/archlinux | lolcat -S 65 -a -s 40 -i")
 elif a == debian:
-    os.system("cat debian | lolcat -S 40 -a -s 40 -i")
+    os.system("cat ~/.linuxcolor/debian | lolcat -S 40 -a -s 40 -i")
 elif a == kali:
-    os.system("cat kalilinux | lolcat 55 -a -s 40 -i")
+    os.system("cat ~/.linuxcolor/kalilinux | lolcat 55 -a -s 40 -i")
 elif a == ubuntu:
-    os.system("cat ubuntu
+    os.system("cat ~/.linuxcolor/ubuntu | lolcat -S 30 -a -s 40 -i")
