@@ -8,7 +8,7 @@ print("Login:")
 a = input()
 
 if a == login:
-    os.system("python3 ~/TermPass/pass.py")
+    os.system("python3 ~/termuxloginpass/pass.py")
 elif a != login:
     print("Login incorrect")
-    os.system("python3 ~/TermPass/login.py")
+    os.system("python3 ~/termuxloginpass/login.py")
