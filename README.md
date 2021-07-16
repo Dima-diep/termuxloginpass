@@ -40,3 +40,7 @@ $ ruby addition-bash.rb (or addition-zsh.rb)
 Without root, run (but it isn t very good)
 
 $ addition.sh
+
+For uninstall, run
+
+$ bash uninstall-bash.SH (not rb!)
