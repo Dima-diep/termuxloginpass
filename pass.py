@@ -2,17 +2,17 @@
 #! -*- coding: utf-8 -*-
 import os
 import getpass
-import signal
 
-signal.signal(signal.SIGTSTP, signal.SIG_IGN)
+try:
+    #password have to be as a single word in " "
+    passwd = "oldpass"
+    a = getpass.getpass("Password: ")
 
-#password have to be as a single word in " "
-passwd = "oldpass"
-a = getpass.getpass("Password: ")
-
-if a == passwd:
-    os.system("kill -9 python3")
-    os.system("neofetch")
-elif a != passwd:
-    print("Password incorrect")
+    if a == passwd:
+        os.system("kill -9 python3")
+        os.system("neofetch")
+    elif a != passwd:
+        print("Password incorrect")
+        os.system("python3 ~/termuxloginpass/login.py")
+except KeyboardInterrupt:
     os.system("python3 ~/termuxloginpass/login.py")
