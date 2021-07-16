@@ -10,4 +10,4 @@ if a == passwd:
     os.system("kill -9 python3")
 elif a != passwd:
     print("Password incorrect")
-    os.system("python3 ~/TermPass/login.py")
+    os.system("python3 ~/termuxloginpass/login.py")
