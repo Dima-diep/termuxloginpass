@@ -1,8 +1,10 @@
 # termuxloginpass
 
+It's termux-locker
+
 Until using, change default login and password
 
-Also, until login, run
+Also, until installation, run
 
 $ chmod +x * && bash install-requirements.sh
 
