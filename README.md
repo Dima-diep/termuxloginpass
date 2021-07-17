@@ -24,11 +24,9 @@ $ ruby chpass.rb
 
 (If you used addition-root.sh, run:
 
-$ sudo chattr -i ~/termuxloginpass/*
+$ sudo unadd.sh
 
-$ sudo chmod 700 ~/termuxlogin/*
-
-$ sudo nano/vim ~/termuxloginpass/chlogin.rb (or chpass.rb)
+$ sudo nano ~/termuxloginpass/login.rb (chpass.rb)
 
 $ sudo ruby ~/termuxloginpass/chlogin.rb (chpass.rb)
 
