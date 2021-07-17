@@ -20,6 +20,20 @@ For change password, edit chpass.rb and run it
 
 $ ruby chpass.rb
 
+(If you used addition.sh, run chmod +w ~/termuxloginpass/*)
+
+(If you used addition-root.sh, run:
+
+$ sudo chattr -i ~/termuxloginpass/*
+
+$ sudo chmod 700 ~/termuxlogin/*
+
+$ sudo nano/vim ~/termuxloginpass/chlogin.rb (or chpass.rb)
+
+$ sudo ruby ~/termuxloginpass/chlogin.rb (chpass.rb)
+
+After changing and running, run your addition again)
+
 Run install-bash.sh if you use bash
 
 $ bash install-bash.sh
