@@ -1,4 +1,4 @@
 #!/bin/bash
-apt install ruby2 python neofetch -y
-gem install lolcat
+apt install python neofetch -y
+pip install lolcat
 echo $SHELL
