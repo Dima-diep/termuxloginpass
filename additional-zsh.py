@@ -2,7 +2,7 @@
 #! -*- coding: utf-8 -*-
 
 with open("/data/data/com.termux/files/usr/etc/zshrc", "r") as f:
-    raw = f.read().lower().replace("python3 login.py", "sudo python3 login.py")
+    raw = f.read().lower().replace("python3 ~/termuxloginpass/login.py", "sudo python3 ~/termuxloginpass/login.py")
     file = open("/data/data/com.termux/files/usr/etc/zshrc", "w")
     file.write(raw)
     file.close()
