@@ -1,5 +1,7 @@
 # termuxloginpass
 
+OS system = Termux
+
 It's termux-locker
 
 Until using, change default login and password
