@@ -20,4 +20,4 @@ with open("/data/data/com.termux/files/usr/etc/zshrc", "r") as f:
     file.write(raw)
     file.close()
     f.close()
-os.system("bash ~/termuxloginpass/unadd.sh && cd ~ && rm -rf ~/.linuxstyle ~/termuxloginpass")
+os.system("bash ~/termuxloginpass/unadd.sh && cd ~ && rm -rf ~/.linuxcolor ~/termuxloginpass")
