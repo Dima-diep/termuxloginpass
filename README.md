@@ -12,13 +12,13 @@ $ chmod +x * && bash install-requirements.sh
 
 for installing requirements and check your current shell
 
-For change login, edit chlogin.rb and run it
+For change login, edit chlogin.py and run it
 
-$ ruby chlogin.rb
+$ python3 chlogin.py
 
-For change password, in the first time, edit chpass.rb and run it
+For change password, in the first time, edit chpass.py and run it
 
-$ ruby chpass.rb
+$ python3 chpass.py
 
 (For later changes, if you used addition.sh, run chmod +w ~/termuxloginpass/* and run commands above)
 
@@ -26,9 +26,9 @@ $ ruby chpass.rb
 
 $ sudo bash unadd.sh
 
-$ sudo nano ~/termuxloginpass/login.rb (chpass.rb)
+$ sudo nano ~/termuxloginpass/login.py (chpass.py)
 
-$ sudo ruby ~/termuxloginpass/chlogin.rb (chpass.rb)
+$ sudo python3 ~/termuxloginpass/chlogin.py (chpass.py)
 
 After changing and running, run your addition again)
 
@@ -49,7 +49,7 @@ If you want additional protect, run
 [WARNING! YOU NEED ROOT FOR IT!!!]
 
 $ bash addition-root.sh
-$ ruby addition-bash.rb (or addition-zsh.rb)
+$ python3 additional-bash.py (or additional-zsh.py)
 
 Without root, run (but it isn t very good)
 
@@ -57,4 +57,4 @@ $ addition.sh
 
 For uninstall, run
 
-$ ruby uninstall-bash.rb (uninstall-zsh.rb)
+$ python3 uninstall-bash.py (uninstall-zsh.py)
