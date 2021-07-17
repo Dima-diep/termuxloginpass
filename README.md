@@ -16,11 +16,11 @@ For change login, edit chlogin.rb and run it
 
 $ ruby chlogin.rb
 
-For change password, edit chpass.rb and run it
+For change password, in the first time, edit chpass.rb and run it
 
 $ ruby chpass.rb
 
-(If you used addition.sh, run chmod +w ~/termuxloginpass/*)
+(For later changes, if you used addition.sh, run chmod +w ~/termuxloginpass/* and run commands above)
 
 (If you used addition-root.sh, run:
 
