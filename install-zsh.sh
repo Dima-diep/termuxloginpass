@@ -4,5 +4,5 @@ echo "python3 ~/termuxloginpass/login-style.py" >> /data/data/com.termux/files/u
 mkdir ~/.linuxcolor
 mv kalilinux ~/.linuxcolor
 mv debian ~/.linuxcolor
-mv ubuntu ~/.linuxcolor
+mv Ubuntu ~/.linuxcolor
 mv archlinux ~/.linuxcolor
