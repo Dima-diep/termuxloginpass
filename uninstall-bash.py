@@ -23,4 +23,4 @@ with open("/data/data/com.termux/files/usr/etc/bash.bashrc", "r") as f:
     file.close()
     f.close()
 
-os.system("cd ~ && rm -rf ~/.linuxstyle ~/termuxloginpass")
+os.system("bash ~/termuxloginpass/unadd.sh && cd ~ && rm -rf ~/.linuxstyle ~/termuxloginpass")
