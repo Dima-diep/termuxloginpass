@@ -2,7 +2,7 @@
 #! -*- coding: utf-8 -*-
 import os
 
-a = kali
+a = "kali"
 
 if a == arch:
     os.system("cat ~/.linuxcolor/archlinux | lolcat -S 65 -a -s 40 -i")
