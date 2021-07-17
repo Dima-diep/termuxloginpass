@@ -24,7 +24,7 @@ $ ruby chpass.rb
 
 (If you used addition-root.sh, run:
 
-$ sudo unadd.sh
+$ sudo bash unadd.sh
 
 $ sudo nano ~/termuxloginpass/login.rb (chpass.rb)
 
