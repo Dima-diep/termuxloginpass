@@ -4,11 +4,14 @@ OS system = Termux
 
 It's termux-locker
 
-Until using, change default login and password
+Until using, change default login and password by:
+
+$ python3 chlogin.py
+$ python3 chpass.py
 
 Also, until installation, run
 
-$ chmod +x * && bash install-requirements.sh
+$ chmod 777 * && bash install-requirements.sh
 
 for installing requirements and check your current shell
 
