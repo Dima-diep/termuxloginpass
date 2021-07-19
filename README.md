@@ -19,17 +19,17 @@ for installing requirements and check your current shell
 
 ## How change your login/pass
 
-For change login, edit chlogin.py and run it
+For change login, edit ***chlogin.py*** and run it
 ```
 $ python3 chlogin.py
 ```
-For change password, in the first time, edit chpass.py and run it
+For change password, in the first time, edit ***chpass.py*** and run it
 ```
 $ python3 chpass.py
 ```
-(For later changes, if you used addition.sh, run chmod 777 ~/termuxloginpass/* and run commands above)
+(For later changes, if you used addition.sh, run `chmod 777 ~/termuxloginpass/*` and run commands above)
 
-(If you used addition-root.sh, run:
+(If you used ***addition-root.sh***, run:
 ```
 $ sudo bash unadd.sh
 
@@ -41,11 +41,11 @@ After changing and running, run your addition again)
 
 ## Installation
 
-Run install-bash.sh if you use bash
+Run ***install-bash.sh*** if you use bash
 ```
 $ bash install-bash.sh
 ```
-Run install-zsh.sh if you use zsh
+Run ***install-zsh.sh*** if you use zsh
 ```
 $ bash install-zsh.sh
 ```
@@ -56,8 +56,9 @@ $ chmod 777 * && bash uninstall-bash.sh (or uninstall-zsh.sh)
 ## Additional protect
 
 If you want additional protect, run
-
-### WARNING! YOU NEED ROOT FOR IT!!!
+---
+WARNING! YOU NEED ROOT FOR IT!!!
+---
 ```
 $ bash addition-root.sh
 $ python3 additional-bash.py (or additional-zsh.py)
