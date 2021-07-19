@@ -57,12 +57,12 @@ $ chmod 777 * && bash uninstall-bash.sh (or uninstall-zsh.sh)
 
 If you want additional protect, run
 
-[WARNING! YOU NEED ROOT FOR IT!!!]
+### WARNING! YOU NEED ROOT FOR IT!!!
 ```
 $ bash addition-root.sh
 $ python3 additional-bash.py (or additional-zsh.py)
 ```
-Without root, run (but it isn t very good)
+### Without root, run (but it isn t very good)
 ```
 $ addition.sh
 ```
