@@ -27,7 +27,7 @@ For change password, in the first time, edit chpass.py and run it
 ```
 $ python3 chpass.py
 ```
-(For later changes, if you used addition.sh, run chmod +w ~/termuxloginpass/* and run commands above)
+(For later changes, if you used addition.sh, run chmod 777 ~/termuxloginpass/* and run commands above)
 
 (If you used addition-root.sh, run:
 ```
