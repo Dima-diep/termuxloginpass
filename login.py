@@ -2,8 +2,10 @@
 #! -*- coding: utf-8 -*-
 import os
 
+os.system("touch exit.sh")
+os.system("echo \"#!/bin/bash\" > exit.sh")
+os.system("echo \"exit\" >> exit.sh")
 try:
-    # login have to be as a single word in " "
     login = "oldlogin"
     print("Login:")
     a = input()
