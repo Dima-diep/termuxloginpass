@@ -19,11 +19,11 @@ for installing requirements and check your current shell
 
 ## How change your login/pass
 
-For change login, edit ***chlogin.py*** and run it
+For change login, run ***chlogin.py***
 ```
 $ python3 chlogin.py
 ```
-For change password, in the first time, edit ***chpass.py*** and run it
+For change password, in the first time, run ***chpass.py***
 ```
 $ python3 chpass.py
 ```
