@@ -15,7 +15,7 @@ Also, until installation, run
 ```
 $ chmod 777 * && bash install-requirements.sh
 ```
-for installing requirements and check your current shell
+for installing requirements.
 
 ## How change your login/pass
 
