@@ -41,7 +41,7 @@ After changing and running, run your addition again)
 
 ## Installation
 
-Run ***install.sh*** if you use bash
+Run ***install.sh***
 ```
 $ bash install.sh
 ```
