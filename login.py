@@ -2,9 +2,6 @@
 #! -*- coding: utf-8 -*-
 import os
 
-os.system("touch exit.sh")
-os.system("echo \"#!/bin/bash\" > exit.sh")
-os.system("echo \"exit\" >> exit.sh")
 try:
     login = "oldlogin"
     print("Login:")
@@ -14,6 +11,6 @@ try:
         os.system("python3 ~/termuxloginpass/pass.py")
     elif a != login:
         print("Login incorrect")
-        os.system("python3 ~/termuxloginpass/login.py")
+        os.system("login")
 except KeyboardInterrupt:
-    os.system("python3 ~/termuxloginpass/login.py")
+    os.system("login")
