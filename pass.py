@@ -9,11 +9,9 @@ try:
     a = getpass.getpass("Password: ")
 
     if a == passwd:
-        os.system("rm -rf exit.sh")
         os.system("neofetch")
     elif a != passwd:
         print("Password incorrect")
-        os.system("rm -rf exit.sh")
-        os.system("python3 ~/termuxloginpass/login.py")
+        os.system("login")
 except KeyboardInterrupt:
-    os.system("python3 ~/termuxloginpass/login.py")
+    os.system("login")
