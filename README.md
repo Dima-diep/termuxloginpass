@@ -43,7 +43,7 @@ After changing and running, run your addition again)
 
 Run ***install.sh*** if you use bash
 ```
-$ bash install-bash.sh
+$ bash install.sh
 ```
 Analogically you can uninstall it
 ```
@@ -55,7 +55,6 @@ $ chmod 777 * && bash uninstall.sh
 If you want additional protect, run
 ```
 $ bash addition-root.sh
-$ python3 additional-bash.py (or additional-zsh.py)
 ```
 ### Without root, run (but it isn t very good)
 ```
@@ -65,5 +64,5 @@ $ addition.sh
 
 For uninstall, run
 ```
-$ python3 uninstall-bash.py (uninstall-zsh.py)
+$ python3 uninstall.py
 ```
