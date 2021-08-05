@@ -41,17 +41,13 @@ After changing and running, run your addition again)
 
 ## Installation
 
-Run ***install-bash.sh*** if you use bash
+Run ***install.sh*** if you use bash
 ```
 $ bash install-bash.sh
 ```
-Run ***install-zsh.sh*** if you use zsh
-```
-$ bash install-zsh.sh
-```
 Analogically you can uninstall it
 ```
-$ chmod 777 * && bash uninstall-bash.sh (or uninstall-zsh.sh)
+$ chmod 777 * && bash uninstall.sh
 ```
 ## Additional protect
 
